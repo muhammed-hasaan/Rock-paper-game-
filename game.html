@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SECESSOR GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div>
+
+        <br>
+        <center>
+            <h1 style="font-family: sans-serif;"><b>R</b>ock <b>P</b>aper <b>S</b>ecessor <b>G</b>ame</h1>
+        </center>
+        <br>
+        <br>
+        <br>
+        <div class="buttons">
+            <button onclick="rockuser()">Rock</button>
+            <button onclick="paperuser()">Paper</button>
+            <button onclick="scissoruser()">Scissors</button>
+        </div>
+        <!-- <div style="display:flex; justify-content:space-between; align-items: center;">
+
+            <div>
+                <h1 style="margin-left: 20px;">User Score</h1>
+                <h2 style="margin-left: 95px;">0</h2>
+            </div>
+            <div>
+                <h1 style="margin-right: 20px;">Computer Score</h1>
+                <h2 style="margin-left: 142px;">0</h2>
+            </div>
+        </div> -->
+        <div class="main">
+            <div class="child1">
+                <img src="https://rock-paper-scissor-azaan.netlify.app/img/rock.png" style="width:300px; height: 300px;"
+                    id="imageuser" alt="User">
+                <h3>User</h3>
+                <h4>User win points</h4>
+                <h3 id="userscore">0</h3>
+            </div>
+            <div class="child2">
+                <img src="https://rock-paper-scissor-azaan.netlify.app/img/rock.png" style="width:300px; height: 300px;"
+                    id="image" alt="User">
+                <h3>Computer</h3>
+                <h4>Computer win points</h4>
+                <h3 id="compscore">0</h3>
+            </div>
+
+        </div>
+        <center>
+
+            <div class="resultdiv">
+                <p id="result">Start Game</p>
+            </div>
+        </center>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
